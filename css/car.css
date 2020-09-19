@@ -1,0 +1,276 @@
+/* ----------------------------------header部分---------------------------------- */
+header {
+    width: 100%;
+    height: 32px;
+}
+
+header .con p {
+    text-align: right;
+    font-size: 12px;
+    color: #999;
+    margin-top: 10px;
+}
+
+header .con p a {
+    font-size: 12px;
+    color: #999;
+}
+
+.exit:hover {
+    color: #ed145b;
+}
+
+
+/* ----------------------------logo部分----------------------------------------- */
+.logo {
+    height: 80px;
+    border-bottom: 2px solid #ccc;
+}
+
+.logo .fl {
+    margin-right: 20px;
+    height: 48px;
+    width: 160px;
+}
+
+.logo .tel {
+    margin-top: 15px;
+}
+
+.logo .fr {
+    height: 48px;
+    width: 377px;
+}
+
+/* -------------------------------main部分-------------------------------------- */
+main {
+    width: 100%;
+    overflow: hidden;
+    padding: 80px;
+    color: #ccc;
+}
+
+.car_icon {
+    margin-right: 30px;
+}
+
+.content {
+    margin-top: 5px;
+}
+
+.content a {
+    display: inline-block;
+    width: 98px;
+    
+    line-height: 32px;
+    font-size: 16px;
+    color: white;
+    background-color: #ed145b;
+    text-align: center;
+    cursor: pointer;
+}
+
+.carbox h2 {
+    font-size: 28px;
+}
+
+.carbox input {
+    height: 26px;
+    width: 280px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+}
+
+/* --------------------购物车商品列表部分------------------- */
+.carlist table {
+    width: 100%;
+}
+
+.carlist td img {
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+}
+
+.carlist tr {
+    border: 1px solid #ccc;
+    color: black;
+
+}
+
+.carlist td {
+    padding: 5px;
+    text-align: center;
+}
+
+.carlist td:nth-child(1) {
+    text-align: left;
+}
+
+.carlist td:nth-child(1) a {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 250px;
+    font-size: 12px;
+    color: black;
+    line-height: 14px;
+}
+
+.carlist td:nth-child(1) p {
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.carlist span {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.carlist td:nth-child(1) span {
+    color: #999;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.carlist td:last-child:hover a {
+    text-decoration: none;
+}
+
+.carlist td:last-child .iconfont:hover {
+    color: #999;
+}
+.carlist .cartip{
+    padding-left:150px ;
+}
+.carlist .total {
+    background-color: #fafafa;
+    font-size: 12px;
+    text-align: right !important;
+    padding-right: 20px;
+    color: #999;
+}
+
+.carlist button {
+    outline: none;
+}
+
+.cartotal {
+    height: 50px;
+    margin: 10px 0;
+    line-height: 50px;
+    border: 1px solid #ccc;
+    background: #fafafa;
+    color: black;
+}
+
+.cartotal p {
+    display: inline;
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+.cartotal button {
+    height: 48px;
+    border: none;
+    width: 145px;
+    margin: 0 0 0 10px;
+    font-size: 18px;
+    color: white;
+    background: -webkit-linear-gradient(top, #fa417d, #f0145c);
+}
+.cartotal .fl a{
+    font-size: 12px;
+    color: black;
+
+}
+.cartotal .fl a:hover{
+    color: #ed145b;
+}
+
+
+
+
+/* -------------------------------热门推荐部分-------------------------------------- */
+.popular {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.popular .con>p {
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #ccc;
+}
+
+.popular p span {
+    display: inline-block;
+    padding: 0 20px;
+    color: #ed145b;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 2px solid #ed145b;
+}
+
+.popular ul li {
+    padding: 10px;
+    margin-top: 20px;
+    width: 180px;
+    float: left;
+    height: 320px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.popular ul li img {
+    height: 160px;
+    width: 160px;
+}
+
+.popular ul li .tit {
+    margin-top: 10px;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-break: break-all;
+}
+
+.popular ul li .price {
+    margin-top: 15px;
+    font-size: 28px;
+    color: red;
+}
+
+.popular ul li button {
+    display: inline-block;
+    width: 95px;
+    line-height: 32px;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    background-color: #fa417d;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+
+}
+
+.footer {
+    background-color: #efefef;
+    height: 140px;
+    margin-bottom: 0;
+    border: 1px;
+    padding-top: 20px;
+    border: 1px solid #999;
+}
+
+.footer .pimg {
+    height: 40px;
+}

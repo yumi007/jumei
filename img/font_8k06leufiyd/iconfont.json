@@ -1,0 +1,23 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "11758132",
+      "name": "闹钟",
+      "font_class": "naozhong",
+      "unicode": "e744",
+      "unicode_decimal": 59204
+    },
+    {
+      "icon_id": "14112845",
+      "name": "爱心",
+      "font_class": "aixin1",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    }
+  ]
+}

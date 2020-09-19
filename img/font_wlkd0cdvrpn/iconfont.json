@@ -1,0 +1,58 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "715996",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "6879695",
+      "name": "护肤品",
+      "font_class": "hufupin",
+      "unicode": "e672",
+      "unicode_decimal": 58994
+    },
+    {
+      "icon_id": "8288837",
+      "name": "放大镜",
+      "font_class": "fangdajing",
+      "unicode": "e848",
+      "unicode_decimal": 59464
+    },
+    {
+      "icon_id": "9524640",
+      "name": "美妆-口红",
+      "font_class": "meizhuang-kouhong",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "13540697",
+      "name": "沐浴露",
+      "font_class": "peitaosheshixiaotubiao_muyulou",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "15686674",
+      "name": "钻石",
+      "font_class": "zuanshi",
+      "unicode": "e6e6",
+      "unicode_decimal": 59110
+    },
+    {
+      "icon_id": "15874022",
+      "name": "沐浴露",
+      "font_class": "muyulou",
+      "unicode": "e7b8",
+      "unicode_decimal": 59320
+    }
+  ]
+}

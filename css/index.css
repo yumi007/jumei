@@ -1,0 +1,193 @@
+html,
+body {
+    background-color: #f7f7f7;
+}
+
+.exit:hover {
+    color: #ed145b;
+}
+
+/*--------------------------------banner部分--------------------------------------------*/
+
+.swiper-container {
+    width: 100%;
+    height: 350px;
+}
+
+.swiper-container img {
+    width: 100%;
+    height: 350px;
+}
+
+.swiper-pagination {
+    text-align:center;
+    margin-left: 20px;
+    ;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 35px;
+    width: 25px;
+
+}
+
+.swiper-button-prev {
+    left: 0;
+    border-radius: 0px 50% 50% 0px;
+
+}
+
+.swiper-button-next {
+    border-radius: 50% 0 0 50%;
+    right: 0;
+}
+
+.swiper-container {
+
+    --swiper-navigation-color: white;
+    /* 单独设置按钮颜色 */
+    --swiper-navigation-size: 15px;
+    /* 设置按钮大小 */
+
+}
+
+.swiper-container {
+    /* --swiper-theme-color: #ff6600; */
+    --swiper-pagination-color: white;
+    /* 两种都可以 */
+}
+
+
+/*-------------------------------- main部分--------------------------------------------*/
+
+main .imgbox {
+    margin-bottom: 50px;
+    /* height: 16000px; */
+    overflow: hidden;
+}
+
+main h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px auto;
+    text-align: center;
+}
+
+main .sp {
+    border-bottom: 1px solid #000;
+    font-size: 16px;
+}
+
+main .sp1 {
+    background-color: black;
+    color: white;
+    padding: 0 10px;
+    margin-right: 5px;
+}
+
+main .sp2 {
+    font-size: 12px;
+    color: red;
+}
+
+/* main .imgbox {
+    display: flex;
+    flex-wrap: wrap;
+   
+
+} */
+
+main .img {
+    width: 320px;
+    height: 450px;
+    background-color: #fff;
+    box-shadow: 2px 2px 4px #e3e3e3;
+    margin-top: 20px;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+    float: left;
+    margin-right: 14px;
+}
+
+main .img1 {
+    height: 345px;
+    width: 310px;
+    /* border: 1px solid #000; */
+    position: absolute;
+    background-color: rgba(255, 255, 255, .3);
+    z-index: 99;
+    display: none;
+}
+
+.carbtn {
+    padding: 5px 10px;
+    background-color: #ed145b;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    z-index: 100;
+    display: none;
+}
+
+.tip {
+    width: 300px;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+    background-color: plum;
+    height: 30px;
+    position: absolute;
+    top: 328px;
+    display: none;
+
+}
+
+
+.imgbox img {
+    margin-left: -245px;
+    width: 862px;
+    height: 345px;
+
+}
+
+.imgbox .title {
+    font-size: 14px;
+    line-height: 24px;
+    color: #333;
+    height: 48px;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+.imgbox .mnum {
+    text-decoration: line-through;
+    color: #929292;
+    padding-left: 5px;
+    font-family: Arial;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.imgbox .price {
+    font-size: 22px;
+    color: #ed145b;
+    display: inline;
+}
+
+.imgbox #box {
+    font-size: 12px;
+    color: #999;
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.imgbox #box span {
+    color: black;
+}

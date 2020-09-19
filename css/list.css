@@ -1,0 +1,235 @@
+body,
+html {
+    background-color: #efefef;
+}
+
+/* --------------------------------选择区域部分--------------------------------------------- */
+.shouye {
+    padding: 15px;
+    color: #333;
+    height: 50px;
+}
+
+.choose {
+    width: 1002px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.choose>p {
+    font-weight: bold;
+    font-size: 14px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    border: 1px solid #efefef;
+}
+
+tr {
+    width: 1002px;
+    height: 50px;
+}
+
+tr td {
+    padding-right: 24px;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+td a {
+    font-weight: normal;
+}
+
+tr td:first-child {
+    padding-right: 40px;
+    padding-left: 10px;
+}
+
+td a:hover {
+    color: #ed145b;
+}
+
+.duoxuan {
+    display: inline-block;
+    background: linear-gradient(to bottom, #fcfcfc, #f2f2f2);
+    border: 1px #ccc solid;
+    padding: 2px 5px;
+    cursor: pointer;
+    color: #999;
+}
+
+/* --------------------------------图文详情部分---------------------------------------- */
+
+main .imgbox {
+    width: 240px;
+    height: 398px;
+    background-color: #fff;
+    margin-top: 20px;
+    overflow: hidden;
+    padding: 10px;
+    float: left;
+}
+
+main .imgbox img {
+    height: 260px;
+    width: 220px;
+    margin-bottom: 10px;
+
+}
+
+
+
+
+.imgbox .title a {
+    width: 220px;
+    font-size: 12px;
+    line-height: 24px;
+    color: #333;
+    height: 36px;
+    font-weight: 400;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.imgbox .title:hover {
+    color: #ed145b;
+    ;
+}
+
+.imgbox .carbtn {
+    padding: 5px 10px;
+    background-color: #ed145b;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.imgbox .collect {
+    padding: 5px 10px;
+    margin-top: 10px;
+    background: linear-gradient(to bottom, #fcfcfc, #f2f2f2);
+    border: 1px #ccc solid;
+}
+
+.imgbox .mnum {
+    text-decoration: line-through;
+    color: #929292;
+    padding-left: 5px;
+    font-family: Arial;
+    display: inline-block;
+    font-size: 12px;
+}
+
+
+.container {
+    width: 100%;
+    background-color: #fff;
+    border: 1px #ccc solid;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+
+.imgbox .price {
+    font-size: 22px;
+    color: #ed145b;
+    display: inline;
+}
+
+.imgbox #box {
+    font-size: 12px;
+    color: #999;
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.imgbox #box span {
+    color: black;
+}
+
+.paixu {
+    height: 40px;
+    width: 100%;
+    background: linear-gradient(to bottom, #fcfcfc, #f2f2f2);
+    border: 1px #ccc solid;
+}
+
+.paixu ul li {
+    height: 40px;
+    float: left;
+    padding: 10px 16px 10px 15px;
+    font-size: 12px;
+    border-right: 1px #ccc solid;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #fff !important;
+}
+
+.page {
+    margin-top: 20px;
+    height: 40px;
+    width: 32%;
+    float: right;
+    margin-bottom: 10px;
+
+}
+
+.page>div {
+    text-align: center;
+    background-color: #fafafa;
+    border: 1px solid #ccc !important;
+    color: black;
+    height: 28px;
+    line-height: 28px;
+}
+
+.page>div:hover {
+    background: linear-gradient(to top, pink, white);
+    border: 1px solid pink !important;
+    cursor: pointer;
+}
+
+.page .first,
+.page .last,
+.page input,
+.page button {
+    display: none;
+}
+
+.page .list {
+    background: none;
+    padding: none;
+    border: none !important;
+}
+
+.page .list:hover {
+    background: none;
+    border: none !important;
+}
+
+.page .list p {
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #ccc !important;
+    text-align: center;
+
+}
+
+.page .list p:hover {
+    background: linear-gradient(to top, pink, white);
+    border: 1px solid pink !important;
+}
+
+.shadow {
+    border: 1px solid #ccc;
+    box-shadow: 10px 10px 10px #ccc !important;
+}

@@ -1,0 +1,113 @@
+.formbox {
+    padding: 20px;
+    overflow: hidden;
+    width: 360px;
+}
+
+.main img {
+    height: 360px;
+    width: 560px;
+    margin-left: 20px;
+}
+
+.inp {
+    margin-top: 20px;
+}
+.tab1{
+    padding: 0;
+}
+.tab2 {
+    display: none;
+    padding: 0;
+}
+
+.tab1>input,
+.tab2>input {
+    width: 318px;
+    height: 40px;
+    border: 1px #ccc solid;
+    margin-top: 30px;
+    padding-left: 30px;
+    background: url(../img/geren.png) no-repeat left;
+    background-size: 30px 30px;
+}
+
+
+.yanzh{
+    width: 318px;
+    height: 100px;
+
+}
+.tab1 #yanzheng {
+    padding-left: 30px;
+    background: url(../img/mima.png) no-repeat left;
+    background-size: 30px 30px;
+}
+
+.tab2 #password {
+    background: url(../img/mima.png) no-repeat left;
+    background-size: 30px 30px;
+}
+
+.tab2 img {
+    width: 318px;
+    height: 40px;
+    margin-left: 0;
+}
+
+
+form>button {
+    margin-top: 5px;
+}
+
+.checkbox {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main .form {
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+.tip {
+    margin-top: 20px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+
+.iconfont {
+    height: 43px;
+    width: 43px;
+    border: 1px #ccc solid;
+    float: left;
+    border-radius: 50%;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+
+.iconfont span {
+    position: absolute;
+    display: inline-block;
+    height: 43px;
+    width: 43px;
+    background-color: rgba(255, 255, 255, 0.6);
+    z-index: 1000;
+}
+
+.icon {
+    margin-left: 8px;
+    margin-top: 7px;
+    position: absolute;
+    width: 25px;
+    height: 23px;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.iconfont:hover span {
+    display: none;
+}
